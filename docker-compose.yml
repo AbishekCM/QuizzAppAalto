@@ -4,7 +4,7 @@ services:
     image: app
     restart: "no"
     volumes:
-      - .:/app
+      - ./app:/app
       - ./app-cache/:/app-cache
     ports:
       - 7777:7777
