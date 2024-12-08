@@ -1,0 +1,32 @@
+<% layout("./layouts/basiclayout.eta") %>
+
+<center>
+<h1>Quiz application</h1>
+
+<p>This application offers an intuitive platform for managing <code>multiple-choice questions (MCQs)</code> categorized under various topics. 
+<br><br>
+Users can create, organize, and answer these questions, while also allowing others to participate. 
+<br><br>
+The app features basic statistics, such as the total number of questions available and the total number of answers submitted. 
+<br><br>
+Additionally, it includes a public API for retrieving and answering random questions, making it versatile for integration with other services or applications. </p>
+
+<br>
+
+<p>If you haven't used the application before, you can start by registering</a>. 
+<br><br>
+<a href="/auth/register"><button>Register</button></a> 
+<br><br>
+If you have been here before, just log in!</p>
+
+<a href="/auth/login"><button>Login</button></a>
+
+
+<h1>Quiz application statistics</h1>
+</center>
+
+<ul>
+    <h4><li>Total topics available: <%= it.topics %></li></h4>
+    <h4><li>Total questions available: <%= it.questions %></li></h4>
+     <h4><li>Total number of questions answered: <%= it.questionsAnswered %></li></h4>
+</ul>

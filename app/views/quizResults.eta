@@ -1,0 +1,39 @@
+<% layout("./layouts/layout.eta") %>
+<h2>Quiz Question</h2>
+<% if (it.results == true ) { %>
+<br>
+
+
+
+
+      
+        <h3>Correct!</h3> 
+
+      <br> <br>
+        <a href="/quiz/<%= it.topicID %>"> <h3>Next question</h3> </a>
+         
+  
+
+<% } else { %>
+
+    <h3>Incorrect!</h3> 
+            
+
+      <br> <br>
+        <a href="/quiz/<%= it.topicID %>"> <h3>Next question</h3> </a>
+
+ <% if (it.correctAnswers) { %>
+     <h3>correct answer: </h3> 
+<ul>
+    <% it.correctAnswers.forEach((answer) => { %>
+   
+            <li><%= answer.option_text %></li>
+            <br>
+        <% }); %>
+
+</ul>
+<% } %>
+     
+   
+
+<% } %>
