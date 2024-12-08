@@ -4,8 +4,8 @@ services:
     image: app
     restart: "no"
     volumes:
-      - ./app:/app
-      - ./app-cache/:/app-cache
+      - ../app:/app
+      - ../app-cache/:/app-cache
     ports:
       - 7777:7777
     depends_on:
