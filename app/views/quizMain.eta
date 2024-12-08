@@ -1,7 +1,7 @@
 <% layout("./layouts/layout.eta") %>
-<h2>Available Quiz Topics</h2>
+<center><h2>Available Quiz Topics</h2>
 
-<h3>Available topics</h3>
+<h3>Available topics</h3> </center>
 <% if (it.topics == 0 ) { %>
 <br>
 

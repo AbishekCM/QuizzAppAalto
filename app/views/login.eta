@@ -1,13 +1,13 @@
 <% layout("./layouts/basiclayout.eta") %>
 
-<h1>Login form</h1>
+<center><h1>Login form</h1>
 
 <form method="POST" action="/auth/login">
-  Email:<br/>
-  <input type="email" name="email" /><br/>
+  Email:<br>
+  <input type="email" name="email" /><br>
   Password:<br/>
-  <input type="password" name="password" /><br/>
-  <input type="submit" value="Login" />
+  <input type="password" name="password" /><br>
+   <button type="submit">Log in</button>
 </form>
 
 <% if (it.validationErrors) { %>
@@ -17,6 +17,6 @@
   
 </ul>
 <% } %>
-
 <br>
-<a href="/auth/register">Not yet registered? Register here.</a>
+<br>
+Not yet registered? <a href="/auth/register">Register here.</a> </center>
