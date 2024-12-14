@@ -19,8 +19,7 @@
     <h3>Incorrect!</h3> 
             
 
-      <br> <br>
-        <a href="/quiz/<%= it.topicID %>"> <h3>Next question</h3> </a>
+      <br> 
 
  <% if (it.correctAnswers) { %>
      <h3>correct answer: </h3> 
@@ -34,6 +33,7 @@
 </ul>
 <% } %>
      
-   
+   <br> <br>
+        <a href="/quiz/<%= it.topicID %>"> <h3>Next question</h3> </a>
 
 <% } %>
