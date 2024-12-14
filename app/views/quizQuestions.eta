@@ -7,7 +7,7 @@
 
 <% } else { %>
 
-     <h5><%= it.question %></h5>
+     <h3><%= it.question %></h3>
 
      <table>
       <% it.questionAnswerOptions.forEach((questionAnswerOption) => { %>
