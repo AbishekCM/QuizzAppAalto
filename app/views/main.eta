@@ -22,7 +22,7 @@ If you have been here before, just log in!</p>
 <a href="/auth/login"><button>Login</button></a>
 
 
-<h1>Quiz application statistics</h1>
+<h2>Quiz application statistics</h2>
 </center>
 
 <ul>

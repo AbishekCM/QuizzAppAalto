@@ -1,4 +1,5 @@
 module.exports = {
+  testDir: "./tests",
   timeout: 10000,
   retries: 0,
   reporter: "list",
