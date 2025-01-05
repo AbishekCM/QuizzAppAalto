@@ -4,7 +4,7 @@ Live demo - https://wsd-answer-question-quiz.onrender.com/
 
 ## wsd-answer-question-quiz Admin Access
 
-Email: admin@wsd.com Password: 1234
+Email: abi@gmail.com Password: 1234
 
 ## Contents
 
